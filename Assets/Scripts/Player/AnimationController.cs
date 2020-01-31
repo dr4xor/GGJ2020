@@ -9,13 +9,13 @@ class AnimationController : MonoBehaviour
 {
     private PlayerController m_controller;
     private Rigidbody2D m_rigidbody;
+    [SerializeField]
     private Animator m_animator;
 
     void Awake()
     {
         m_controller = GetComponent<PlayerController>();
         m_rigidbody = GetComponent<Rigidbody2D>();
-        m_animator = GetComponent<Animator>();
     }
 
     void Update()

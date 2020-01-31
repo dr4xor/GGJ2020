@@ -3,13 +3,16 @@
 class PlayerController : MonoBehaviour
 {
 
-    public AnimationController anim;
-    public MovementController movement;
+    private AnimationController _anim;
+    private MovementController _movement;
+
+    public AnimationController anim => _anim;
+    public MovementController movement => _movement;
 
     void Awake()
     {
-        anim = GetComponent<AnimationController>();
-        movement = GetComponent<MovementController>();
+        _anim = GetComponent<AnimationController>();
+        _movement = GetComponent<MovementController>();
     }
 
 }

@@ -14,13 +14,7 @@ public class MovementController : MonoBehaviour
     {
         get
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down * 0.05f);
-            if(hit.collider == null)
-            {
-                return false;
-            }
-
-            return true;
+            return m_controller.IsGrounded;
         }
     }
 
