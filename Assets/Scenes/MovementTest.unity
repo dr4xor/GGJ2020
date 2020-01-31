@@ -204,28 +204,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &270770572 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 520225792164938014, guid: 096fbb15a22003f43a7fb9d5338e7632,
-    type: 3}
-  m_PrefabInstance: {fileID: 7995270596937089653}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &270770573
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270770572}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.25}
-  serializedVersion: 2
-  m_Radius: 0.25
 --- !u!1 &583835678
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +216,7 @@ GameObject:
   - component: {fileID: 583835681}
   - component: {fileID: 583835680}
   - component: {fileID: 583835679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,25 +409,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2789829831623439305, guid: 096fbb15a22003f43a7fb9d5338e7632,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4068684569391248316, guid: 096fbb15a22003f43a7fb9d5338e7632,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503237254561130481, guid: 096fbb15a22003f43a7fb9d5338e7632,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.125
-      objectReference: {fileID: 0}
-    - target: {fileID: 5503237254561130481, guid: 096fbb15a22003f43a7fb9d5338e7632,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 8854685039177874185, guid: 096fbb15a22003f43a7fb9d5338e7632,
         type: 3}

@@ -10,7 +10,7 @@ public class MovementController : MonoBehaviour
 
     [SerializeField] private float m_runSpeed;
 
-    private bool IsGrounded
+    public bool IsGrounded
     {
         get
         {
