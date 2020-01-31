@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-class AnimationController : MonoBehaviour
+public class AnimationController : MonoBehaviour
 {
     private PlayerController m_controller;
     private Rigidbody2D m_rigidbody;
