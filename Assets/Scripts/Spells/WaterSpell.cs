@@ -30,7 +30,7 @@ public class WaterSpell : Spell
         GameObject.Destroy(wölkchen, 1);
         wölkchen.GetComponentInChildren<ParticleSystem>()?.Stop();
         wölkchen.GetComponent<Animator>().SetTrigger("kill");
-        Debug.Log(manaCost);
+        GameManager.Instance.DecreaseMana((int)manaCost);
     }
 
     public override void CalculateMana()

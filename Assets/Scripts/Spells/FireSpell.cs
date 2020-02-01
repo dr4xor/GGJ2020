@@ -27,6 +27,7 @@ public class FireSpell : Spell
         fireballSprite.transform.right = direction;
 
         fireball.GetComponent<Rigidbody2D>().AddForce(direction * velocity, ForceMode2D.Force);
+        GameManager.Instance.DecreaseMana((int)manaCost);
         GameObject.Destroy(fireball, lifetime);
     }
 

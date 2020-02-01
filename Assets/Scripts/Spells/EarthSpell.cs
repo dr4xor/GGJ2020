@@ -42,6 +42,7 @@ public class EarthSpell : Spell
 
         manaCost = velocity.x * velocity.x + velocity.y * velocity.y;
         manaCost = manaCost / 7;
+        GameManager.Instance.DecreaseMana((int)manaCost);
     }
 
     public override void CalculateMana()
