@@ -25,34 +25,20 @@ public class PlantManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isInRain)
+        spriteRenderer.sprite = growStateSprites[growState];
+    }
+
+    public void OnTriggerStay2D(Collider2D other)
+    {
+        Debug.Log(other.tag);
+        if(other.CompareTag("Rain"))
         {
-            if(totalGrowTime < neededGrowTime)
+            if (totalGrowTime < neededGrowTime)
             {
                 totalGrowTime += Time.deltaTime;
             }
 
             growState = Mathf.FloorToInt((totalGrowTime / neededGrowTime) * (growStateSprites.Length - 1));
-
-        }
-
-        spriteRenderer.sprite = growStateSprites[growState];
-    }
-
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log(other.tag);
-        if(other.CompareTag("Rain"))
-        {
-            isInRain = true;
-        }
-    }
-
-    public void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Rain"))
-        {
-            isInRain = false;
         }
     }
 }

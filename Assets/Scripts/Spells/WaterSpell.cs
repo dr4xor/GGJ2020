@@ -9,7 +9,10 @@ public class WaterSpell : Spell
 
     public override void OnTrigger(Vector2 mousePos, PlayerController p)
     {
-        Debug.Log("splash");
+        GameObject wölkchen = (GameObject)GameObject.Instantiate(Resources.Load("WaterSpell")) as GameObject;
+        wölkchen.transform.position = mousePos;
+
+        GameObject.Destroy(wölkchen, 5);
     }
 
 }
