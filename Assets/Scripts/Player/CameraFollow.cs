@@ -23,7 +23,7 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         this.playerPos = player.transform.position;
-        this.camereaPos = playerPos + (rb.velocity * dampening);
+        this.camereaPos = playerPos + new Vector2(rb.velocity.x * dampening, 0);
         this.camereaPos.z = -10;
         camera.transform.position = this.camereaPos;
     }
