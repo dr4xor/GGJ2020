@@ -9,7 +9,6 @@ public class FireSpellManager : MonoBehaviour
 
         if (collision.collider.tag != "Player")
         {
-            Debug.Log("collide (name) : " + collision.collider.gameObject.name);
             Destroy(gameObject);
 
             GameObject explosion = GameObject.Instantiate(Resources.Load("Explosion")) as GameObject;
