@@ -12,6 +12,9 @@ public class SpellManager : MonoBehaviour
 
     private Spell active;
 
+    private const float cooldown = 1;
+    private float lastSpellTime;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -40,12 +43,12 @@ public class SpellManager : MonoBehaviour
                 break;
         }
 
-        if(Input.GetKeyDown (KeyCode.Mouse0))
+        if(Input.GetKeyDown (KeyCode.Mouse0) && Time.time - lastSpellTime > cooldown)
         {
-
             Vector3 mousePos = Input.mousePosition;
             mousePos.z = 10;
             active.OnTrigger(Camera.main.ScreenToWorldPoint(mousePos), GetComponent<PlayerController>());
+            lastSpellTime = Time.time;
         }
 
     }
