@@ -7,7 +7,7 @@ public class WaterSpell : Spell
 
     public WaterSpell() { }
 
-    public override void OnTrigger(Vector2 mousePos, PlayerController p)
+    public override void OnTriggerDown(Vector2 mousePos, PlayerController p)
     {
         GameObject wölkchen = (GameObject)GameObject.Instantiate(Resources.Load("WaterSpell")) as GameObject;
         wölkchen.transform.position = mousePos;
@@ -15,4 +15,11 @@ public class WaterSpell : Spell
         GameObject.Destroy(wölkchen, 5);
     }
 
+    public override void OnTriggerMove(Vector2 mousePos, PlayerController p)
+    {
+    }
+
+    public override void OnTriggerUp(Vector2 mousePos, PlayerController p)
+    {
+    }
 }

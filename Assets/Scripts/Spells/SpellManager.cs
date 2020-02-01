@@ -51,11 +51,11 @@ public class SpellManager : MonoBehaviour
 
         var playerController = GetComponent<PlayerController>();
 
-        if (Input.GetKeyDown (KeyCode.Mouse0) && Time.time - lastSpellTime > cooldown)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && Time.time - lastSpellTime > cooldown)
         {
             isInSpell = true;
             
-            active.OnTriggerUp(Camera.main.ScreenToWorldPoint(mousePos), playerController);
+            active.OnTriggerDown(Camera.main.ScreenToWorldPoint(mousePos), playerController);
             lastSpellTime = Time.time;
         }
 
