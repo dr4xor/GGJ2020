@@ -61,7 +61,13 @@ public class CharacterController2D : MonoBehaviour
         }
     }
 
-
+    public bool PathIsFree(Vector2 targetVelocity)
+    {
+        int layerMask = LayerMask.GetMask("Default", "Ground", "Boulder");
+        return Physics2D.Raycast(transform.position, targetVelocity, 0.5f, layerMask).collider == null
+            && Physics2D.Raycast(transform.position + Vector3.up * 0.75f, targetVelocity, 0.5f, layerMask).collider == null
+            && Physics2D.Raycast(transform.position + Vector3.up * 1.5f, targetVelocity, 0.5f, layerMask).collider == null;
+    }
 
     public void Move(float move, bool crouch, bool jump)
     {
@@ -104,11 +110,9 @@ public class CharacterController2D : MonoBehaviour
             Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
             // And then smoothing it out and applying it to the character
 
-            if(m_Grounded || Physics2D.Raycast(transform.position, targetVelocity, 0.5f, LayerMask.GetMask("Default", "Ground", "Boulder")).collider == null)
+            if(m_Grounded || PathIsFree(targetVelocity))
             {
-                Debug.Log("IsGroundend");
                 m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
-
             }
 
             // If the input is moving the player right and the player is facing left...
