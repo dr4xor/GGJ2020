@@ -1,18 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class CampaignButton : MonoBehaviour
 {
+    public Button campaign;
 
-    void Update()
-    {
-        gameObject.GetComponent<Button>().onClick.AddListener(ChangeScene);
-    }
-
-    void ChangeScene()
+    public void ChangeScene()
     {
         SceneManager.LoadScene("MovementTest");
     }
