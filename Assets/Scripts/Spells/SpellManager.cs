@@ -42,7 +42,10 @@ public class SpellManager : MonoBehaviour
 
         if(Input.GetKeyDown (KeyCode.Mouse0))
         {
-            active.OnTrigger(transform.position, GetComponent<PlayerController>());
+
+            Vector3 mousePos = Input.mousePosition;
+            mousePos.z = 10;
+            active.OnTrigger(Camera.main.ScreenToWorldPoint(mousePos), GetComponent<PlayerController>());
         }
 
     }
