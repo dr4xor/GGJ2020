@@ -9,6 +9,8 @@ public class FireSpell : Spell
     private const float velocity = 750;
     private const float lifetime = 1.5f;
 
+    private float manaCost = 10;
+
     public FireSpell() { }
 
     public override void OnTriggerDown(Vector2 mousePos, PlayerController p)
@@ -34,6 +36,11 @@ public class FireSpell : Spell
     }
 
     public override void OnTriggerUp(Vector2 mousePos, PlayerController p)
+    {
+
+    }
+
+    public override void CalculateMana()
     {
 
     }
