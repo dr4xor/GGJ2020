@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2378620396036602444}
   - component: {fileID: 3135162351632769403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: State
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8442982921576638352}
   - component: {fileID: 5121391158316813812}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: State (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2063241629641653057}
   - component: {fileID: 3274585219563890828}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: State (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 8175210904655037939}
   - component: {fileID: 8175210904655037941}
   - component: {fileID: 8175210904655037937}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ExamplePlant
   m_TagString: Plant
   m_Icon: {fileID: 0}
@@ -321,7 +321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b34a642779855449a82935291bb54cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
   growStates:
   - {fileID: 830139682901414631}
   - {fileID: 2036988099876913608}
@@ -359,7 +358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4331131754951137048}
   - component: {fileID: 2266185199446592404}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: State (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
