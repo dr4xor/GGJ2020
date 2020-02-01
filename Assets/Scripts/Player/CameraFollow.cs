@@ -23,12 +23,12 @@ public class CameraFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         this.playerPos = player.transform.position;
-        this.targetCameraPos = playerPos + new Vector2(rb.velocity.x * dampening, 0);
+        this.targetCameraPos = playerPos; //+ new Vector2(rb.velocity.x * dampening, 0);
         this.targetCameraPos.z = -10;
 
-        camera.transform.position = Vector3.Lerp(camera.transform.position, targetCameraPos, Time.deltaTime * lerpSpeed);
+        camera.transform.position = targetCameraPos; //Vector3.Lerp(camera.transform.position, targetCameraPos, Time.deltaTime * lerpSpeed);
     }
 }
