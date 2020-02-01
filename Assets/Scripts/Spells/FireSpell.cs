@@ -6,8 +6,8 @@ using System.Windows;
 public class FireSpell : Spell
 {
 
-    private const float velocity = 500;
-    private const float lifetime = 10;
+    private const float velocity = 750;
+    private const float lifetime = 1.5f;
 
     public FireSpell() { }
 
@@ -15,10 +15,10 @@ public class FireSpell : Spell
     {
         // PLEASE FOR FUCKS SACKE BELIEVE ME ITS A FUCKING GAME OBJECT
         GameObject fireball = (GameObject) GameObject.Instantiate(Resources.Load("FireSpell")) as GameObject;
-        fireball.transform.position = p.transform.position;
 
         Vector2 direction = (mousePos - (Vector2)p.transform.position).normalized;
-        Vector2 forceVector = direction * velocity;
+        fireball.transform.position = p.transform.position + new Vector3(0, 1, 0) +  (Vector3) direction*1.5f;
+
 
         //set direction of fireball sprite
         SpriteRenderer fireballSprite = fireball.GetComponent<SpriteRenderer>();
