@@ -1,0 +1,1303 @@
+fileFormatVersion: 2
+guid: 555fa4ad6d0c9b54fa96ab6db178ad63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7191032963762209721
+    second: GrowExampleSpritesheet_0
+  - first:
+      213: -7257453787679109943
+    second: GrowExampleSpritesheet_1
+  - first:
+      213: 8875307283629433557
+    second: GrowExampleSpritesheet_2
+  - first:
+      213: -5998579019370578881
+    second: GrowExampleSpritesheet_3
+  - first:
+      213: 8880082940997053659
+    second: GrowExampleSpritesheet_4
+  - first:
+      213: 1075295521761344423
+    second: GrowExampleSpritesheet_5
+  - first:
+      213: -8645201807458287090
+    second: GrowExampleSpritesheet_6
+  - first:
+      213: -906090666978794405
+    second: GrowExampleSpritesheet_7
+  - first:
+      213: -6665758840099794295
+    second: GrowExampleSpritesheet_8
+  - first:
+      213: 8764184777642620690
+    second: GrowExampleSpritesheet_9
+  - first:
+      213: -4626193559131144373
+    second: GrowExampleSpritesheet_10
+  - first:
+      213: -2904592679979506266
+    second: GrowExampleSpritesheet_11
+  - first:
+      213: 4368178781760484786
+    second: GrowExampleSpritesheet_12
+  - first:
+      213: -7665873941171154353
+    second: GrowExampleSpritesheet_13
+  - first:
+      213: -3490817640820370859
+    second: GrowExampleSpritesheet_14
+  - first:
+      213: -6135273543412682709
+    second: GrowExampleSpritesheet_15
+  - first:
+      213: 2022890629201407763
+    second: GrowExampleSpritesheet_16
+  - first:
+      213: -131268839072876041
+    second: GrowExampleSpritesheet_17
+  - first:
+      213: -2808063057763480861
+    second: GrowExampleSpritesheet_18
+  - first:
+      213: -7595910086380475020
+    second: GrowExampleSpritesheet_19
+  - first:
+      213: 1835962717529179518
+    second: GrowExampleSpritesheet_20
+  - first:
+      213: -4331523164875855719
+    second: GrowExampleSpritesheet_21
+  - first:
+      213: -5730213162952309501
+    second: GrowExampleSpritesheet_22
+  - first:
+      213: -1680633996159137637
+    second: GrowExampleSpritesheet_23
+  - first:
+      213: 1230333798167867541
+    second: GrowExampleSpritesheet_24
+  - first:
+      213: -3481425729785754327
+    second: GrowExampleSpritesheet_25
+  - first:
+      213: 7649225924146135167
+    second: GrowExampleSpritesheet_26
+  - first:
+      213: 6093116921723619934
+    second: GrowExampleSpritesheet_27
+  - first:
+      213: 1506814543209045264
+    second: GrowExampleSpritesheet_28
+  - first:
+      213: 460051352093335343
+    second: GrowExampleSpritesheet_29
+  - first:
+      213: 9134790103952957329
+    second: GrowExampleSpritesheet_30
+  - first:
+      213: -8293090405698051479
+    second: GrowExampleSpritesheet_31
+  - first:
+      213: 3679895224419146403
+    second: GrowExampleSpritesheet_32
+  - first:
+      213: -5773371781745197307
+    second: GrowExampleSpritesheet_33
+  - first:
+      213: 818625187892665560
+    second: GrowExampleSpritesheet_34
+  - first:
+      213: -3632202878485948177
+    second: GrowExampleSpritesheet_35
+  - first:
+      213: -7323183244341891424
+    second: GrowExampleSpritesheet_36
+  - first:
+      213: -2658432898253101566
+    second: GrowExampleSpritesheet_37
+  - first:
+      213: 327029670330907231
+    second: GrowExampleSpritesheet_38
+  - first:
+      213: -565064219035432770
+    second: GrowExampleSpritesheet_39
+  - first:
+      213: 7061106892693472065
+    second: GrowExampleSpritesheet_40
+  - first:
+      213: 6595392153932232858
+    second: GrowExampleSpritesheet_41
+  - first:
+      213: 7800602981052767354
+    second: GrowExampleSpritesheet_42
+  - first:
+      213: -642545868308366787
+    second: GrowExampleSpritesheet_43
+  - first:
+      213: -5058392681668119925
+    second: GrowExampleSpritesheet_44
+  - first:
+      213: 7019316746345538819
+    second: GrowExampleSpritesheet_45
+  - first:
+      213: 177994520674155754
+    second: GrowExampleSpritesheet_46
+  - first:
+      213: -7935571084090643709
+    second: GrowExampleSpritesheet_47
+  - first:
+      213: 4300725733815913208
+    second: GrowExampleSpritesheet_48
+  - first:
+      213: -8731886599178096621
+    second: GrowExampleSpritesheet_49
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 745
+        width: 163
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3cb2d716eabc360800000000000000
+      internalID: 7191032963762209721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 745
+        width: 158
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccc2935b38584b90800000000000000
+      internalID: -7257453787679109943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 745
+        width: 176
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d26b2973fc6b2b70800000000000000
+      internalID: 8875307283629433557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 745
+        width: 184
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c3e49e924c0cca0800000000000000
+      internalID: -5998579019370578881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 745
+        width: 186
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdca22ad2646c3b70800000000000000
+      internalID: 8880082940997053659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 745
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab372374973cee00800000000000000
+      internalID: 1075295521761344423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 745
+        width: 191
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0242e6a2c2160880800000000000000
+      internalID: -8645201807458287090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 745
+        width: 191
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54ae6cc65bec63f0800000000000000
+      internalID: -906090666978794405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 745
+        width: 188
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9829e61d6a77e73a0800000000000000
+      internalID: -6665758840099794295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 745
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2173641ee93a0a970800000000000000
+      internalID: 8764184777642620690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 745
+        width: 188
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fb9c5f7757ccfb0800000000000000
+      internalID: -4626193559131144373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 745
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a52f94c850d0b7d0800000000000000
+      internalID: -2904592679979506266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 745
+        width: 180
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b57b3a5573ee9c30800000000000000
+      internalID: 4368178781760484786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 497
+        width: 184
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42d19b14485d9590800000000000000
+      internalID: -7665873941171154353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 497
+        width: 183
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5521c3fc9df1e8fc0800000000000000
+      internalID: -3490817640820370859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 497
+        width: 182
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20f805e7312bdaa0800000000000000
+      internalID: -6135273543412682709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 497
+        width: 183
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f240d3f40c21c10800000000000000
+      internalID: 2022890629201407763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 497
+        width: 182
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9bbf4bfa3ad2ef0800000000000000
+      internalID: -131268839072876041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 497
+        width: 182
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea4c17d681c709d0800000000000000
+      internalID: -2808063057763480861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 497
+        width: 183
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d2c737508e59690800000000000000
+      internalID: -7595910086380475020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 497
+        width: 182
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75003f3d56aa7910800000000000000
+      internalID: 1835962717529179518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 497
+        width: 183
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998e23581a653e3c0800000000000000
+      internalID: -4331523164875855719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 497
+        width: 182
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305c5fefc713a70b0800000000000000
+      internalID: -5730213162952309501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 497
+        width: 182
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b984d7de8403da8e0800000000000000
+      internalID: -1680633996159137637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 497
+        width: 183
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590f3f22216031110800000000000000
+      internalID: 1230333798167867541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 497
+        width: 180
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d07308ebd7fafc0800000000000000
+      internalID: -3481425729785754327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70807f5372872a60800000000000000
+      internalID: 7649225924146135167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 184
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a024ebe891f8450800000000000000
+      internalID: 6093116921723619934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 181
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d1e56f7d749e410800000000000000
+      internalID: 1506814543209045264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 247
+        width: 183
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f16fb644e626600800000000000000
+      internalID: 460051352093335343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 182
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f9edb833b45ce70800000000000000
+      internalID: 9134790103952957329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 247
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962ea26f63609ec80800000000000000
+      internalID: -8293090405698051479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 181
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aad82ea53d911330800000000000000
+      internalID: 3679895224419146403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 247
+        width: 180
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f30d004fcd0efa0800000000000000
+      internalID: -5773371781745197307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 0
+        width: 182
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc978865475c5b00800000000000000
+      internalID: 818625187892665560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 247
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe891bbe9b2d79dc0800000000000000
+      internalID: -3632202878485948177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 0
+        width: 182
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aea8ef93a3de5a90800000000000000
+      internalID: -7323183244341891424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 247
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20669603d595b1bd0800000000000000
+      internalID: -2658432898253101566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 0
+        width: 181
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a3613a0c7d98400800000000000000
+      internalID: 327029670330907231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 247
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb80c1d261d7828f0800000000000000
+      internalID: -565064219035432770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 0
+        width: 182
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1438e0cbe471ef160800000000000000
+      internalID: 7061106892693472065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 247
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a987789583a878b50800000000000000
+      internalID: 6595392153932232858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 0
+        width: 181
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd087f41f414c60800000000000000
+      internalID: 7800602981052767354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 247
+        width: 180
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ab597efe73517f0800000000000000
+      internalID: -642545868308366787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 0
+        width: 181
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b827cb218aafcc9b0800000000000000
+      internalID: -5058392681668119925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 247
+        width: 180
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30560ef046f996160800000000000000
+      internalID: 7019316746345538819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 0
+        width: 182
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecbfb0d21d587200800000000000000
+      internalID: 177994520674155754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 247
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b6aeab4203fd190800000000000000
+      internalID: -7935571084090643709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 247
+        width: 180
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa8a78c44f3fab30800000000000000
+      internalID: 4300725733815913208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrowExampleSpritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 95
+        width: 178
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310fefcc66b12d680800000000000000
+      internalID: -8731886599178096621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
