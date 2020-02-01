@@ -57,4 +57,8 @@ public sealed class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    public int getMana()
+    {
+        return this.mana;
+    }
 }
