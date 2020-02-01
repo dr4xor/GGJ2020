@@ -23,6 +23,7 @@ public class SpellManager : MonoBehaviour
         fire = new FireSpell();
         water = new WaterSpell();
         air = new AirSpell();
+        earth = new EarthSpell();
 
         active = water;
     }
