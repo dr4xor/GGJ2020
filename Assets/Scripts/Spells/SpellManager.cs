@@ -15,6 +15,8 @@ public class SpellManager : MonoBehaviour
     private const float cooldown = 1;
     private float lastSpellTime;
 
+    private bool isInSpell = false;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -43,13 +45,31 @@ public class SpellManager : MonoBehaviour
                 break;
         }
 
-        if(Input.GetKeyDown (KeyCode.Mouse0) && Time.time - lastSpellTime > cooldown)
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = 10;
+
+        var playerController = GetComponent<PlayerController>();
+
+        if (Input.GetKeyDown (KeyCode.Mouse0) && Time.time - lastSpellTime > cooldown)
         {
-            Vector3 mousePos = Input.mousePosition;
-            mousePos.z = 10;
-            active.OnTrigger(Camera.main.ScreenToWorldPoint(mousePos), GetComponent<PlayerController>());
+            isInSpell = true;
+            
+            active.OnTriggerUp(Camera.main.ScreenToWorldPoint(mousePos), playerController);
             lastSpellTime = Time.time;
         }
 
+        if(isInSpell)
+        {
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                active.OnTriggerMove(Camera.main.ScreenToWorldPoint(mousePos), playerController);
+            }
+
+            if (Input.GetKeyUp(KeyCode.Mouse0))
+            {
+                isInSpell = false;
+                active.OnTriggerUp(Camera.main.ScreenToWorldPoint(mousePos), playerController);
+            }
+        }
     }
 }
