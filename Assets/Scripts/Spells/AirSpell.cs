@@ -23,4 +23,9 @@ public class AirSpell : Spell
     {
 
     }
+
+    public override void CalculateMana()
+    {
+
+    }
 }

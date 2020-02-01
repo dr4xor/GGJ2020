@@ -10,6 +10,7 @@ public class EarthSpell : Spell
     private Vector2 mouseEndPosition;
     private Vector2 velocity;
     private GameObject Boulder;
+    public float manaCost;
 
     public override void OnTriggerDown(Vector2 mousePos, PlayerController p)
     {
@@ -36,6 +37,15 @@ public class EarthSpell : Spell
 
         mouseEndPosition = mousePos;
         velocity = mouseStartPosition - mouseEndPosition;
-        Boulder.GetComponent<Rigidbody2D>().AddForce(velocity * 1000 *-1);
+
+        Boulder.GetComponent<Rigidbody2D>().AddForce(velocity * 800 *-1);
+
+        manaCost = velocity.x * velocity.x + velocity.y * velocity.y;
+        manaCost = manaCost / 7;
+    }
+
+    public override void CalculateMana()
+    {
+
     }
 }
