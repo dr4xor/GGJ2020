@@ -9,7 +9,7 @@ public class CampaignButton : MonoBehaviour
 
     void Update()
     {
-        gameObject.GetComponent<Button>().onClick.AddListener(ChangeScene);
+        //gameObject.GetComponent<Button>().onClick.AddListener(ChangeScene);
     }
 
     void ChangeScene()
