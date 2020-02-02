@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public sealed class GameManager
 {
@@ -47,6 +48,15 @@ public sealed class GameManager
         score = START_SCORE;
         mana = START_MANA;
         level = START_LEVEL;
+    }
+
+    public void resetLevel()
+    {
+        score = START_SCORE;
+        mana = START_MANA;
+        level = START_LEVEL;
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
 
     public void ExitGame()
