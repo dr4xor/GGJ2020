@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using System.Linq;
 
 public class Button : MonoBehaviour
 {
     bool activated = false;
     [SerializeField] private float cooldownSeconds; //-1 if it's not supposed to be reset
+    [SerializeField] private string[] targets;
     public UnityEvent uEvent;
 
     private Animator animator;
@@ -19,16 +21,13 @@ public class Button : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("YOOOOO");
         if(activated)
         {
             return;
         }
 
 
-        if (other.CompareTag("FireProjectile")
-        || other.CompareTag("Boulder")
-        || other.CompareTag("Player"))
+        if (targets.Contains(other.tag))
         {
             activated = true;
             animator.SetBool("active", true);
