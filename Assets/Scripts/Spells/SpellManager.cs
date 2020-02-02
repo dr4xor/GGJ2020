@@ -35,15 +35,19 @@ public class SpellManager : MonoBehaviour
         {
             case "1":
                 active = fire;
+                GameManager.Instance.SelectSpell(1);
                 break;
             case "2":
                 active = water;
+                GameManager.Instance.SelectSpell(2);
                 break;
             case "3":
                 active = earth;
+                GameManager.Instance.SelectSpell(3);
                 break;
             case "4":
                 active = air;
+                GameManager.Instance.SelectSpell(4);
                 break;
         }
 

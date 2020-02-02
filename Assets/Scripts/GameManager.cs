@@ -10,6 +10,7 @@ public sealed class GameManager
     //player related
     private int score = 0;
     private int mana = 100;
+    private int selectedSpell = 1;
 
     //map related
     private int level = 1;
@@ -17,6 +18,7 @@ public sealed class GameManager
     private readonly int START_SCORE = 0;
     private readonly int START_MANA = 100;
     private readonly int START_LEVEL = 1;
+
 
 
 
@@ -43,11 +45,17 @@ public sealed class GameManager
         this.mana += value;
     }
 
+    public void SelectSpell(int id)
+    {
+        this.selectedSpell = id;
+    }
+
     public void LoadLevel(int level)
     {
         score = START_SCORE;
         mana = START_MANA;
         level = START_LEVEL;
+        selectedSpell = 1;
     }
 
     public void resetLevel()
@@ -55,6 +63,7 @@ public sealed class GameManager
         score = START_SCORE;
         mana = START_MANA;
         level = START_LEVEL;
+        selectedSpell = 1;
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
@@ -67,5 +76,10 @@ public sealed class GameManager
     public int getMana()
     {
         return this.mana;
+    }
+
+    public int getSelectedSpeel()
+    {
+        return this.selectedSpell;
     }
 }
