@@ -20,7 +20,7 @@ public class FireSpell : Spell
         // PLEASE FOR FUCKS SACKE BELIEVE ME ITS A FUCKING GAME OBJECT
         GameObject fireball = (GameObject)GameObject.Instantiate(Resources.Load("FireSpell")) as GameObject;
 
-        Vector2 direction = (mousePos - (Vector2)p.transform.position).normalized;
+        Vector2 direction = (mousePos - ((Vector2)p.transform.position + Vector2.up)).normalized;
         fireball.transform.position = p.transform.position + new Vector3(0, 1, 0) + (Vector3)direction * 1.5f;
 
 

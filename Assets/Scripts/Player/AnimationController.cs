@@ -30,5 +30,11 @@ public class AnimationController : MonoBehaviour
         m_animator.SetTrigger("hit");
     }
 
+    public void OnDamageTaken()
+    {
+        m_animator.SetTrigger("autsch");
+
+    }
+
 }
 

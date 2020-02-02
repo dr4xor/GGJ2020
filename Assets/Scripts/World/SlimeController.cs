@@ -46,6 +46,7 @@ public class SlimeController : MonoBehaviour
         if(other.collider.CompareTag("Player"))
         {
             GameManager.Instance.DecreaseMana(10);
+            other.gameObject.GetComponent<PlayerController>().anim.OnDamageTaken();
         }
         
         if(other.collider.CompareTag("FireProjectile"))
