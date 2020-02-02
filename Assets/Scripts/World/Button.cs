@@ -5,43 +5,47 @@ using UnityEngine.Events;
 
 public class Button : MonoBehaviour
 {
-    bool activated;
+    bool activated = false;
     [SerializeField] private float cooldownSeconds; //-1 if it's not supposed to be reset
     public UnityEvent uEvent;
 
-    private float startCooldown;
+    private Animator animator;
 
     public void Start()
     {
         activated = false;
+        animator = GetComponent<Animator>();
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if (cooldownSeconds == -1)
+        Debug.Log("YOOOOO");
+        if(activated)
         {
             return;
         }
 
-        if (activated == false)
+
+        if (other.CompareTag("FireProjectile")
+        || other.CompareTag("Boulder")
+        || other.CompareTag("Player"))
         {
-            if (other.CompareTag("FireProjectile")
-            || other.CompareTag("Boulder")
-            || other.CompareTag("Player"))
+            activated = true;
+            animator.SetBool("active", true);
+            uEvent.Invoke();
+
+            if (cooldownSeconds != -1)
             {
-                uEvent.Invoke();
+                StartCoroutine(ButtonCooldown());
             }
-
-            startCooldown = Time.time;
         }
-
-        StartCoroutine(ButtonCooldown());
     }
 
     private IEnumerator ButtonCooldown()
     {
         yield return new WaitForSeconds(cooldownSeconds);
-        activated = true;
+        activated = false;
+        animator.SetBool("active", false);
 
     }
 }
