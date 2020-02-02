@@ -34,6 +34,11 @@ public class EarthSpell : Spell
 
     public override void OnTriggerUp(Vector2 mousePos, PlayerController p)
     {
+        if(Boulder == null)
+        {
+            return;
+        }
+        p.anim.OnSpellExecuted();
 
         mouseEndPosition = mousePos;
         velocity = mouseStartPosition - mouseEndPosition;
