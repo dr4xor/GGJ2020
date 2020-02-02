@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3204588556845587052}
   - component: {fileID: 5512630528837412654}
   - component: {fileID: 6604508208044541972}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Boulder1
   m_TagString: Boulder
   m_Icon: {fileID: 0}
