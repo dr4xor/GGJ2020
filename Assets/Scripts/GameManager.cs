@@ -2,29 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public sealed class GameManager : MonoBehaviour
+public sealed class GameManager
 {
 
 
     //player related
-    [SerializeField] GameObject player;
-    private int score;
-    private int mana;
+    private int score = 0;
+    private int mana = 100;
 
     //map related
-    private int level;
+    private int level = 1;
 
     private readonly int START_SCORE = 0;
     private readonly int START_MANA = 100;
     private readonly int START_LEVEL = 1;
 
-
-    private GameManager()
-    {
-        score = START_SCORE;
-        mana = START_MANA;
-        level = START_LEVEL;
-    }
 
 
     private static GameManager instance = null;
