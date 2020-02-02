@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 2317227174039746045}
   - component: {fileID: 2317227174039746044}
   - component: {fileID: 2317227174039746043}
-  - component: {fileID: 2317227174039746042}
+  - component: {fileID: 4529755083136754819}
+  - component: {fileID: 3662491222438596411}
+  - component: {fileID: 267321980}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -169,7 +171,43 @@ PolygonCollider2D:
       - {x: 0.26, y: -0.08}
       - {x: 0.26, y: -0.06}
       - {x: 0.24, y: -0.04}
---- !u!95 &2317227174039746042
+--- !u!114 &4529755083136754819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317227174039746041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255f3ea7e5e131b41aba75f1085d00e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRadius: 6
+  attackCooldown: 3
+  attackChargeForce: 300
+--- !u!50 &3662491222438596411
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317227174039746041}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!95 &267321980
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -179,7 +217,7 @@ Animator:
   m_GameObject: {fileID: 2317227174039746041}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2391296e6ced2d64fa788907aa416215, type: 2}
+  m_Controller: {fileID: 9100000, guid: 149fa00dd4fafeb4c97c76007c4acf1a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
