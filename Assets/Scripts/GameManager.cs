@@ -39,6 +39,11 @@ public sealed class GameManager
     public void DecreaseMana(int value)
     {
         this.mana -= value;
+
+        if(mana <= 0)
+        {
+            resetLevel();
+        }
     }
 
     public void IncreaseMana(int value)

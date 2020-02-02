@@ -25,7 +25,7 @@ public class SpellManager : MonoBehaviour
         air = new AirSpell();
         earth = new EarthSpell();
 
-        active = water;
+        active = fire;
     }
 
     // Update is called once per frame
