@@ -11,6 +11,6 @@ public class CampaignButton : MonoBehaviour
 
     public void ChangeScene()
     {
-        SceneManager.LoadScene("MovementTest");
+        SceneManager.LoadScene("Level0");
     }
 }
