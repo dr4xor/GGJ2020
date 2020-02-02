@@ -9,7 +9,7 @@ public class FireSpell : Spell
     private const float velocity = 750;
     private const float lifetime = 1.5f;
 
-    private float manaCost = 10;
+    private float manaCost = 5;
 
     public FireSpell() { }
 

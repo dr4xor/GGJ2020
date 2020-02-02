@@ -6,7 +6,7 @@ public class AirSpell : Spell
 {
 
     public AirSpell() { }
-    private int manaCost = 10;
+    private int manaCost = 7;
 
     private const float factor = 1500;
     public override void OnTriggerDown(Vector2 mousePos, PlayerController p)
