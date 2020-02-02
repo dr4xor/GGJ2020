@@ -13,6 +13,7 @@ public class WaterSpell : Spell
 
     public override void OnTriggerDown(Vector2 mousePos, PlayerController p)
     {
+        p.anim.OnSpellExecuted();
         wölkchen = (GameObject)GameObject.Instantiate(Resources.Load("WaterSpell")) as GameObject;
         wölkchen.transform.position = mousePos;
         timePassed = 0;

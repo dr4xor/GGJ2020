@@ -11,6 +11,7 @@ public class AirSpell : Spell
     private const float factor = 1500;
     public override void OnTriggerDown(Vector2 mousePos, PlayerController p)
     {
+        p.anim.OnSpellExecuted();
         Vector2 direction = ((Vector2)p.transform.position - mousePos).normalized;
         p.GetComponent<Rigidbody2D>().AddForce(direction * factor);
         GameManager.Instance.DecreaseMana(manaCost);

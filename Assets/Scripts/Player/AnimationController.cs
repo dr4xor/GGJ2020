@@ -25,5 +25,10 @@ public class AnimationController : MonoBehaviour
         m_animator.SetFloat("vertical", m_rigidbody.velocity.y);
     }
 
+    public void OnSpellExecuted()
+    {
+        m_animator.SetTrigger("hit");
+    }
+
 }
 

@@ -15,6 +15,8 @@ public class FireSpell : Spell
 
     public override void OnTriggerDown(Vector2 mousePos, PlayerController p)
     {
+        p.anim.OnSpellExecuted();
+
         // PLEASE FOR FUCKS SACKE BELIEVE ME ITS A FUCKING GAME OBJECT
         GameObject fireball = (GameObject)GameObject.Instantiate(Resources.Load("FireSpell")) as GameObject;
 

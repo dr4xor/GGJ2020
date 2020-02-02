@@ -24,21 +24,20 @@ public class MovementController : MonoBehaviour
         m_controller = GetComponent<CharacterController2D>();
     }
 
+  
+
+    // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("Jump"))
         {
             m_jump = true;
         }
-    }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
         var horizontal = Input.GetAxis("Horizontal");
         var vertical = Input.GetAxis("Vertical");
 
-        m_controller.Move(horizontal * m_runSpeed * Time.fixedDeltaTime, false, m_jump);
+        m_controller.Move(horizontal * m_runSpeed * Time.deltaTime, false, m_jump);
         m_jump = false;
     }
 }

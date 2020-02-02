@@ -4,31 +4,16 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    private const float dampening = 0.1f;
-    [SerializeField]
-    private float lerpSpeed;
+    [SerializeField] public Transform target;
+    public float smoothTime = 0.3F;
+    private Vector3 velocity = Vector3.zero;
 
-
-    [SerializeField] private GameObject camera;
-    [SerializeField] private GameObject player;
-    Rigidbody2D rb;
-
-    private Vector3 targetCameraPos;
-    private Vector2 playerPos;
-
-    // Start is called before the first frame update
-    void Start()
+    void LateUpdate()
     {
-      rb = player.GetComponent<Rigidbody2D>();
-    }
+        // Define a target position above and behind the target transform
+        Vector3 targetPosition = target.TransformPoint(new Vector3(0, 0, -10));
 
-    // Update is called once per frame
-    void Update()
-    {
-        this.playerPos = player.transform.position;
-        this.targetCameraPos = playerPos + new Vector2(rb.velocity.x * dampening, 0);
-        this.targetCameraPos.z = -10;
-
-        camera.transform.position = Vector3.Lerp(camera.transform.position, targetCameraPos, Time.deltaTime * lerpSpeed);
+        // Smoothly move the camera towards that target position
+        transform.position = targetPosition; // Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
     }
 }
