@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
+        GameManager.Instance.player = gameObject;
         _anim = GetComponent<AnimationController>();
         _movement = GetComponent<MovementController>();
     }

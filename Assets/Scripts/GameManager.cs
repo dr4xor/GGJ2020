@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public sealed class GameManager
 {
 
+    public GameObject player;
 
     //player related
     private int score = 0;
