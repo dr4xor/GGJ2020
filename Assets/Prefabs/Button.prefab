@@ -144,6 +144,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownSeconds: 10
+  targets:
+  - Player
+  - Boulder
+  - FireProjectile
   uEvent:
     m_PersistentCalls:
       m_Calls: []

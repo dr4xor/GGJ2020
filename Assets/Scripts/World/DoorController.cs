@@ -17,12 +17,12 @@ public class DoorController : MonoBehaviour
         
     }
 
-    void OpenDoor()
+    public void OpenDoor()
     {
         animator.SetBool("doorOpened", true);
     }
 
-    void CloseDoor()
+    public void CloseDoor()
     {
         animator.SetBool("doorOpened", false);
     }

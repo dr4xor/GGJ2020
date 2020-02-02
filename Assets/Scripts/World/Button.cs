@@ -9,7 +9,8 @@ public class Button : MonoBehaviour
     bool activated = false;
     [SerializeField] private float cooldownSeconds; //-1 if it's not supposed to be reset
     [SerializeField] private string[] targets;
-    public UnityEvent uEvent;
+    public UnityEvent onActivateEvent;
+    public UnityEvent onDeactivateEvent;
 
     private Animator animator;
 
@@ -31,7 +32,7 @@ public class Button : MonoBehaviour
         {
             activated = true;
             animator.SetBool("active", true);
-            uEvent.Invoke();
+            onActivateEvent.Invoke();
 
             if (cooldownSeconds != -1)
             {
@@ -45,6 +46,7 @@ public class Button : MonoBehaviour
         yield return new WaitForSeconds(cooldownSeconds);
         activated = false;
         animator.SetBool("active", false);
+        onDeactivateEvent.Invoke();
 
     }
 }
