@@ -31,7 +31,8 @@ public class Button : MonoBehaviour
         if (targets.Contains(other.tag))
         {
             activated = true;
-            animator.SetBool("active", true);
+            if(animator != null) 
+                animator.SetBool("active", true);
             onActivateEvent.Invoke();
 
             if (cooldownSeconds != -1)
@@ -45,7 +46,8 @@ public class Button : MonoBehaviour
     {
         yield return new WaitForSeconds(cooldownSeconds);
         activated = false;
-        animator.SetBool("active", false);
+        if (animator != null)
+            animator.SetBool("active", false);
         onDeactivateEvent.Invoke();
 
     }

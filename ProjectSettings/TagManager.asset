@@ -73,3 +73,6 @@ TagManager:
   - name: Ground2
     uniqueID: 1795778019
     locked: 0
+  - name: New Layer
+    uniqueID: 3887922673
+    locked: 0
