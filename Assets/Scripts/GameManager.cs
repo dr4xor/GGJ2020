@@ -45,6 +45,11 @@ public sealed class GameManager : MonoBehaviour
         this.mana -= value;
     }
 
+    public void IncreaseMana(int value)
+    {
+        this.mana += value;
+    }
+
     public void LoadLevel(int level)
     {
         score = START_SCORE;
